@@ -1,1 +1,1 @@
-# scss-assignments
+# scss-assignment
