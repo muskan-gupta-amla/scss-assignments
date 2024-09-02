@@ -1,0 +1,153 @@
+$nav-color:#E7FBE6;
+$navbar-color:#86AB89;
+$orientation:inline-block;
+$center-align:center;
+$footer-color :#CBE2B5;
+$text-white:white;
+$text-green:#1A5319;
+$text-blue:blue;
+$text-purple:purple;
+$font-size:20px;
+
+
+@mixin footer-style {
+   background-color: $footer-color; 
+   color: $text-green;
+  
+ }
+   
+.navBar{ 
+   overflow: hidden;
+   background-color:$navbar-color;
+   width: 100%;
+   margin: 2px 0px;
+
+   li{
+      display: $orientation;
+      padding: 5px 15px 5px 5px ; 
+   a{
+      display: $orientation;
+        text-decoration: none;
+        color: $text-white;
+        font-weight:bold;
+        font-size: larger;
+   }
+}
+}
+
+.bannerImage{
+   height: 350px;  
+   width: 100%; 
+}
+
+.card{
+   border: 2px solid $nav-color;
+   background-color: $nav-color;
+
+
+.card-one{
+   display: $orientation;
+   background-color: $nav-color;
+   border: 1px solid $navbar-color;
+   height: 400px;
+   width: 400px;
+   padding: 5px;
+   margin: 10px 5px 10px 5px;
+
+ img{
+      height: 220px;
+      width: 100%;
+   }
+   h3{
+      text-align: $center-align;
+      font-weight: bold;
+      color: $text-blue;
+      font-size: $font-size +5 ;
+   }
+   p{
+      text-align: $center-align;
+      font-weight: bolder;
+      color: $text-purple;
+      font-size: $font-size;
+   }
+   .para{
+      text-align: justify;
+        padding: 5px;
+        
+        font-weight: lighter;
+        font-size: medium;
+
+      }
+   }
+}
+   table,tr{
+      margin-top: 10px;
+      width: 100%;
+      border-collapse: collapse;
+      height: 50px;
+      border-bottom: 1px solid $navbar-color;
+      
+   } 
+  
+   th{
+     background-color: $navbar-color;
+     text-align: left;
+     color: $text-white;
+     height: 40px;
+   }
+
+tr{
+      img{
+         height: 50px;
+        width: 50px;
+     }
+     .input-box {
+      width: 50px;
+      height: 30px;
+      }
+   }
+  
+  footer{
+
+   ul{
+      background-color:$footer-color;
+      height: 150px;
+      font-weight: bold;
+      font-size: large;
+      margin: auto;
+      padding: 5px 0px 0px 0px;
+     
+  
+  pre{
+   @include footer-style;
+      font-weight: lighter;
+      padding: 20px 0px 0px;
+  }
+  li{
+   display: $orientation;
+   padding: 0px 10px;
+  
+  a{
+   @include footer-style;
+   text-decoration: none;
+   
+  }
+}
+  img{
+   height: 30px;
+   width: 30px;
+   margin: 0px  15px;
+   background-color: $footer-color;
+   border-radius: 20px;
+   float: right;
+   max-width:100%;
+   
+  }
+
+   }
+  }
+
+
+
+
+

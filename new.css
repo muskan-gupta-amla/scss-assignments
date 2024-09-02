@@ -1,0 +1,115 @@
+.navBar {
+  overflow: hidden;
+  background-color: #86AB89;
+  width: 100%;
+  margin: 2px 0px;
+}
+.navBar li {
+  display: inline-block;
+  padding: 5px 15px 5px 5px;
+}
+.navBar li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.bannerImage {
+  height: 350px;
+  width: 100%;
+}
+
+.card {
+  border: 2px solid #E7FBE6;
+  background-color: #E7FBE6;
+}
+.card .card-one {
+  display: inline-block;
+  background-color: #E7FBE6;
+  border: 1px solid #86AB89;
+  height: 400px;
+  width: 400px;
+  padding: 5px;
+  margin: 10px 5px 10px 5px;
+}
+.card .card-one img {
+  height: 220px;
+  width: 100%;
+}
+.card .card-one h3 {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: 25px;
+}
+.card .card-one p {
+  text-align: center;
+  font-weight: bolder;
+  color: purple;
+  font-size: 20px;
+}
+.card .card-one .para {
+  text-align: justify;
+  padding: 5px;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+table, tr {
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  height: 50px;
+  border-bottom: 1px solid #86AB89;
+}
+
+th {
+  background-color: #86AB89;
+  text-align: left;
+  color: white;
+  height: 40px;
+}
+
+tr img {
+  height: 50px;
+  width: 50px;
+}
+tr .input-box {
+  width: 50px;
+  height: 30px;
+}
+
+footer ul {
+  background-color: #CBE2B5;
+  height: 150px;
+  font-weight: bold;
+  font-size: large;
+  margin: auto;
+  padding: 5px 0px 0px 0px;
+}
+footer ul pre {
+  background-color: #CBE2B5;
+  color: #1A5319;
+  font-weight: lighter;
+  padding: 20px 0px 0px;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+footer ul li a {
+  background-color: #CBE2B5;
+  color: #1A5319;
+  text-decoration: none;
+}
+footer ul img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 15px;
+  background-color: #CBE2B5;
+  border-radius: 20px;
+  float: right;
+  max-width: 100%;
+}/*# sourceMappingURL=new.css.map */
